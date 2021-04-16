@@ -1,1 +1,141 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+    background-color: #272727;
+    border-bottom: 1px solid #14A76C;
+    padding-bottom: 3rem;
+    
+}
+header nav a {
+    padding: 1rem 2.5rem;
+    border: 1.5px solid #FFE400;
+    margin: .7rem .7rem .7rem 2.5rem;
+    text-decoration: none;
+}
+
+h1 {
+    color: #FF652F;
+    padding: 2rem;
+    font-size: 45px;
+}
+
+#container {
+    display: flex;
+    margin: 3rem 5.2rem;
+}
+
+#text1 {
+    width: 30%;
+    margin: 10%;
+    text-align: center;
+}
+
+#text1 a {
+    line-height: 6;
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    border: 1.5px solid #FFE400;
+}
+
+#container2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+#container3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    width: 96%;
+    
+}
+#container4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+#container5 {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    width: 96%;
+}
+
+#footer {
+    border-top: 1px solid #14A76C;
+    background: #272727;
+    padding: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+#footer a {
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    border: 1.5px solid #FFE400;
+}
+
+#footer p {
+    margin-bottom: 3rem;
+}
+h2 {
+    font-size: 32px;
+    color: #FF652F;
+}
+a {
+    font-size: 20px;
+    color: #FF652F;
+}
+p {
+    font-size: 20px;
+    color: #FF652F;
+}
+body {
+    background-color: #272727;
+}
