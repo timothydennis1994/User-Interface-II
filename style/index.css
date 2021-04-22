@@ -144,7 +144,7 @@ body {
 }
 
 @media (max-width: 800px){
-}
+
     #container img {
         width: 600px;
         height: 266px;
@@ -198,6 +198,7 @@ body {
         margin-left: 6%;
       
     } 
+}
 
     @media (max-width: 500px) {
         header {
