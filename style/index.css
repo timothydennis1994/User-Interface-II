@@ -156,11 +156,45 @@ body {
     }
     #text1 {
         width:auto;
+    }
+    #container2, #container4 {
+        flex-flow: row wrap;
         
         
     }
-
-
-    #container2, #container4 {
+    #container2 img:nth-child(1){
+        margin-bottom: 4rem;
+    }
+    #container2 img:nth-child(2){
+        margin-bottom: 4rem;
+    }
+    #container4 img:nth-child(1){
+        margin-bottom: 4rem;
+    }
+    #container4 img:nth-child(2){
+        margin-bottom: 4rem;
+    }
+    #container3  {
         flex-flow: row wrap;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    #container3 p {
+        width: 38%;
+        margin-bottom: 1rem;
+        margin-left: 6%;
+      
+    }
+    #container5  {
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    #container5 p {
+        width: 38%;
+        margin-bottom: 1rem;
+        margin-left: 6%;
+      
     }
