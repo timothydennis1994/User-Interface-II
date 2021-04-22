@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+* {
+    max-width: 100%;
+}
 header {
     background-color: #272727;
     border-bottom: 1px solid #14A76C;
@@ -139,3 +142,25 @@ p {
 body {
     background-color: #272727;
 }
+
+@media (max-width: 800px){
+}
+    #container img {
+        width: 600px;
+        height: 266px;
+        margin-left: 6.25rem;
+    }
+    #container {
+        margin: 3rem 0;
+        display: block;
+    }
+    #text1 {
+        width:auto;
+        
+        
+    }
+
+
+    #container2, #container4 {
+        flex-flow: row wrap;
+    }
