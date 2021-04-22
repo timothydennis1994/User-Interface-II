@@ -197,4 +197,38 @@ body {
         margin-bottom: 1rem;
         margin-left: 6%;
       
+    } 
+
+    @media (max-width: 500px) {
+        header {
+            text-align: center;
+            width: 100%;
+          
+            
+        }
+        header nav {
+            display: flex;
+            flex-flow: column;
+            
+        }
+        header nav a {
+            margin: 1rem auto;
+            width: 40%;
+        }
+       #container img {
+           width: 500px;
+           margin: auto;
+       }
+       #container2, #container4 {
+            width: 300px;
+            display: flex;
+            flex-flow: wrap;
+            margin: auto; 
+       }
+       #container2 img:nth-child(3){
+        margin-bottom: 4rem;
+    }
+    #container4 img:nth-child(3){
+        margin-bottom: 4rem;
+    }
     }
